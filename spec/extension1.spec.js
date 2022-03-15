@@ -17,4 +17,12 @@ describe('Poker', () => {
 
     expect(result).toEqual(['7', '7'])
   })
+
+  it("should return [] for [['4', '3'], ['6', '2'], ['7', '1'], ['3', '9']]", () => {
+    poker = new Poker()
+
+    const result = poker.winningPairFromArray([['4', '3'], ['6', '2'], ['7', '1'], ['3', '9']])
+
+    expect(result).toEqual([])
+  })
 })

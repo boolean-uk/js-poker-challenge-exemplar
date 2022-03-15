@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npx jasmine",
+    "test-main": "npx jasmine spec/poker.spec.js",
+    "test-extension1": "npx jasmine spec/extension1.spec.js",
+    "test-extension2": "npx jasmine spec/extension2.spec.js",
     "prepare": "husky install"
   },
   "author": "",
