@@ -15,10 +15,10 @@ $ npm install # installs dependencies listed in package.json
 ```
 2. Run the tests from your project root directory. There should be a lot of failures to begin with. You can run your test suite in a few ways:
 ```sh
-$ npm test # run the full test suite
-$ npm test-main # run only the tests for the main exercise
-$ npm test-extension1 # run only the tests for extension 1
-$ npm test-extension2 # run only the tests for extension 2
+$ npm run test # run the full test suite
+$ npm run test-main # run only the tests for the main exercise
+$ npm run test-extension1 # run only the tests for extension 1
+$ npm run test-extension2 # run only the tests for extension 2
 ```
 3. In GitHub, [open a Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) from your forked repository to the challenge repository.
 4. Implement the criteria below locally and [push your code](https://docs.github.com/en/github/managing-files-in-a-repository/adding-a-file-to-a-repository-using-the-command-line) to your repository! Every push to a branch that has an open Pull Request will update it automatically with your changes.
